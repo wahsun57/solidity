@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "accountBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAccountBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UsingLowLevelCall.sol": "AccountBalanceChecker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UsingLowLevelCall.sol": {
+			"keccak256": "0x3428952e7ae24b9a9d6285a07f1dd20088e87e3b4d2112a6bfabc21d6f259b05",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6397b057c13583dcc336d06948d9c05288077b938b5bbbf5235217b7fc8edb35",
+				"dweb:/ipfs/QmcAAZMKZUsc4BAQVK8iExii6CxWJrdubVq54zRHx9M4om"
+			]
+		}
+	},
+	"version": 1
+}
